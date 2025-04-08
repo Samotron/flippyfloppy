@@ -11,6 +11,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@duckdb/node-api": "^1.2.2-alpha.18",
     "asciidoctor": "^3.0.4",
     "fs": "^0.0.1-security",
     "html-to-docx": "^1.8.0",
