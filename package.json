@@ -1,0 +1,27 @@
+{
+  "name": "flippyfloppy",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@vitest/coverage-v8": "^3.1.1",
+    "vitest": "^3.1.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "asciidoctor": "^3.0.4",
+    "fs": "^0.0.1-security",
+    "html-to-docx": "^1.8.0",
+    "mammoth": "^1.9.0",
+    "path": "^0.12.7",
+    "turndown": "^7.2.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "convert": "ts-node src/converter.ts"
+  }
+}
